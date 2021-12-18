@@ -508,6 +508,10 @@ p {
   color: rgb(224, 224, 224) !important;
 }
 
+.whiteh1 {
+  color: rgb(224, 224, 224) !important;
+}
+
 .favoritas {
   display: flex;
   margin-top: 50px;
@@ -534,8 +538,30 @@ p {
 
 .conteudo {
   flex: 1;
-
+  display: flex;
   border: 1px solid black;
+  padding-left: 10px;
+  text-align: center;
+  align-items: center;
+  color: rgb(238, 238, 238);
+  font-size: 14px;
+
+
+}
+
+.CONTATO {
+  flex: 1;
+  display: flex;
+}
+
+.conteudo h4 {
+  font-weight: 400 !important;
+  text-shadow: 0.1em 0.1em 0.2em black
+}
+
+.msc-fav {
+
+  margin-right: 0px;
 }
 
 .divisoria {
@@ -646,4 +672,338 @@ footer {
 .button-subscribe:hover {
   background-color: rgb(243, 136, 86);
 
+}
+
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-title {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.section-title h1 {
+  display: inline-block;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000000;
+  margin: 0 0 5px;
+  position: relative;
+}
+
+.section-title h1:before {
+  content: '';
+  left: 0;
+  position: absolute;
+  height: 2px;
+  right: 32%;
+  background-color: #febd01;
+  bottom: 0px;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.portfolio {
+  background-color: white;
+  padding: 100px 7px;
+}
+
+.portfolio .section-title h1:before {
+  left: 30%;
+}
+
+.portfolio .filter-buttons {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.portfolio .filter-buttons ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.portfolio .filter-buttons ul li {
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+  display: inline-block;
+  margin: 0px 8px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding-bottom: 0px;
+}
+
+.portfolio .filter-buttons ul li.active {
+  color: #febd01;
+  border-bottom: 2px solid #febd01;
+}
+
+.portfolio .portfolio-gallery {
+  flex: 0 0 100%;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio .portfolio-gallery .item {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  position: relative;
+  padding: 8px;
+
+}
+
+.portfolio .portfolio-gallery .item .inner {
+  position: relative;
+}
+
+.portfolio .portfolio-gallery .item img {
+  width: 100%;
+  display: block;
+}
+
+
+.email,
+.nome,
+.email,
+.assunto {
+  background-color: white;
+  height: 45px;
+  width: 50%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 5px;
+}
+
+.mensagem {
+  height: 300px;
+  width: 100%;
+  border: none;
+  background-color: #fff;
+  padding-left: 10px;
+  margin: 5px;
+  display: flex;
+  align-items: initial;
+  justify-content: flex-start;
+
+
+}
+
+.email:focus,
+.nome:focus,
+.email:focus,
+.assunto:focus,
+.mensagem:focus {
+  border: 1px solid rgb(245, 169, 70, );
+  outline: none !important;
+  -moz-box-shadow: inset 0 0 4px rgba(245, 169, 70, 0.2);
+  -webkit-box-shadow: inset 0 0 4px rgba(218, 141, 27, 0.2);
+  box-shadow: inner 0 0 4px rgba(218, 141, 27, 0.2);
+  box-shadow: 0 0 10px rgba(218, 141, 27, 0.2);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+
+}
+
+.jumbotron {
+  flex: 1;
+  margin-right: 15px;
+  padding: 10px;
+  background-color: #f7f7f7 !important;
+
+}
+
+.jumbotron .display-4 {
+  font-weight: 400 !important;
+  font-size: 30px;
+  text-transform: uppercase;
+
+}
+
+.jumbotron .lead,
+.p {
+  font-size: 16px;
+}
+
+.nome-email,
+.tel-assunto {
+  display: flex;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contato h5 {
+  padding: 10px;
+}
+
+.enviar {
+  background-color: rgb(252, 134, 0);
+  height: 40px;
+  border: none;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+
+}
+
+
+
+.enviar:hover {
+  background-color: rgb(255, 171, 74);
+  -moz-transition: all 0.2s ease-in;
+  /* WebKit */
+  -webkit-transition: all 0.2s ease-in;
+  /* Opera */
+  -o-transition: all 0.2s ease-in;
+  /* Standard */
+  transition: all 0.2s ease-in;
+}
+
+.icones-social {
+  display: flex;
+
+}
+
+.insta {
+  margin-right: 5px;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  color: white;
+  font-size: 25px;
+  border-radius: 20px;
+  background-image: linear-gradient(#ee0017, #c2019c);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.insta:hover {
+  -moz-transition: all 0.2s ease-in;
+  /* WebKit */
+  -webkit-transition: all 0.2s ease-in;
+  /* Opera */
+  -o-transition: all 0.2s ease-in;
+  /* Standard */
+  transition: all 0.2s ease-in;
+  background-image: linear-gradient(#c2019c, #ee0017);
+  width: 50px;
+  height: 50px;
+  font-size: 35px;
+}
+
+.youtube {
+  margin-right: 5px;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  color: white;
+  font-size: 25px;
+  border-radius: 20px;
+  background-image: linear-gradient(#ee0017, #f15252);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.youtube:hover {
+  -moz-transition: all 0.2s ease-in;
+  /* WebKit */
+  -webkit-transition: all 0.2s ease-in;
+  /* Opera */
+  -o-transition: all 0.2s ease-in;
+  /* Standard */
+  transition: all 0.2s ease-in;
+  background-image: linear-gradient(#f15252, #ee0017);
+  width: 50px;
+  height: 50px;
+  font-size: 35px;
+}
+
+.spotify {
+  margin-right: 5px;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  color: white;
+  font-size: 25px;
+  border-radius: 20px;
+  background-image: linear-gradient(#00ee63, #039427);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.spotify:hover {
+  -moz-transition: all 0.2s ease-in;
+  /* WebKit */
+  -webkit-transition: all 0.2s ease-in;
+  /* Opera */
+  -o-transition: all 0.2s ease-in;
+  /* Standard */
+  transition: all 0.2s ease-in;
+  background-image: linear-gradient(#039427, #00ee63);
+  width: 50px;
+  height: 50px;
+  font-size: 35px;
+}
+
+.redes-sociais {
+  margin-left: 170px;
+}
+
+.rede-social {
+  margin-top: 50px !important;
+}
+
+@media(max-width:767px) {
+
+  .portfolio .portfolio-gallery .item {
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    padding: 8px;
+  }
+
+}
+
+@media(max-width:500px) {
+
+  .portfolio .portfolio-gallery .item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
