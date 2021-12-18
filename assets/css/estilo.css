@@ -171,6 +171,7 @@ header {
   color: #FFF;
 }
 
+
 .menu ul li:nth-child(1).active~.indicator {
   background-color: rgb(228, 81, 81);
   box-shadow: 0 10px 20px rgb(224, 19, 19);
