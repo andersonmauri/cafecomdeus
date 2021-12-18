@@ -45,7 +45,7 @@
                         <Ul>
 
                             <li class="list active">
-                                <a href="">
+                                <a href="#home">
                                     <Span class="icon">
                                         <ion-icon name="home-outline"></ion-icon>
                                     </Span>
@@ -53,7 +53,7 @@
                                 </a>
                             </li>
                             <li class="list">
-                                <a href="">
+                                <a href="#aboutus">
                                     <Span class="icon">
                                         <ion-icon name="book-outline"></ion-icon>
                                     </Span>
@@ -63,7 +63,7 @@
 
 
                             <li class="list">
-                                <a href="">
+                                <a href="#projects">
                                     <Span class="icon">
                                         <ion-icon name="document-text-outline"></ion-icon>
                                     </Span>
@@ -71,7 +71,7 @@
                                 </a>
                             </li>
                             <li class="list">
-                                <a href="">
+                                <a href="#program">
                                     <Span class="icon">
                                         <i class="far fa-list-alt"></i>
                                     </Span>
@@ -80,7 +80,7 @@
                             </li>
 
                             <li class="list">
-                                <a href="">
+                                <a href="gallery">
                                     <Span class="icon">
                                         <i class="fas fa-camera"></i>
                                     </Span>
@@ -88,7 +88,7 @@
                                 </a>
                             </li>
                             <li class="list">
-                                <a href="">
+                                <a href="#">
                                     <Span class="icon">
                                         <ion-icon name="people-outline"></ion-icon>
                                     </Span>
@@ -96,7 +96,7 @@
                                 </a>
                             </li>
                             <li class="list">
-                                <a href="">
+                                <a href="#">
                                     <Span class="icon">
                                         <i class="fas fa-hands-helping"></i>
                                     </Span>
@@ -104,7 +104,7 @@
                                 </a>
                             </li>
                             <li class="list">
-                                <a href="">
+                                <a href="#contact">
                                     <Span class="icon">
                                         <ion-icon name="call-outline"></ion-icon>
                                     </Span>
@@ -132,10 +132,12 @@
     </header>
 
     <main>
-        <div class="slider">
+        <div class="slider"><a name="home"></a>
             <div class="slider-controls">
                 <div class="slider-control" onclick="goPrev()"><img class="nextprev" src="media/prev.png"></div>
-                <div class="button">Iniciar</div>
+                <a href="#aboutus">
+                    <div class="button"> Iniciar</div>
+                </a>
                 <div class="slider-control" onclick="goNext()"><img class="nextprev" src="media/next.png"></div>
 
             </div>
@@ -165,7 +167,7 @@
         </div>
         <section class="default light">
             <div class="teste">
-                <div class="section-title text-center">
+                <div class="section-title text-center"><a name="aboutus"></a>
                     <h1>Sobre Nós</h1>
                 </div>
                 <div class="section-desc">Descrição geral</div>
@@ -193,7 +195,7 @@
         </section>
 
         <section class="default dark">
-            <div class="section-title text-center white">
+            <div class="section-title text-center white"><a name="projects"></a>
                 <h1>Projetos</h1>
             </div>
             <div class="section-desc">Cnheça Alguns dos Nosos Trabalhos</div>
@@ -229,7 +231,7 @@
 
         <section class="default light img-radio">
             <div class="teste">
-                <div class="section-title text-center  white">
+                <div class="section-title text-center  white"><a name="program"></a>
                     <h1>Programação</h1>
                 </div>
                 <div class="section-desc white">Fique por dentro da nossa programação para não perder seu programa
@@ -395,7 +397,7 @@
         <section class="portfolio" id="Portfolio">
             <div class="container">
                 <div class="row">
-                    <div class="section-title text-center">
+                    <div class="section-title text-center"><a name="gallery"></a>
                         <h1>Galeria</h1>
                     </div>
                 </div>
@@ -461,7 +463,7 @@
 
         <section class="default light">
             <div class="teste">
-                <div class="section-title text-center">
+                <div class="section-title text-center"><a name="contact"></a>
                     <h1>Fale Conosco</h1>
                 </div>
                 <div class="section-desc">Descrição geral</div>
@@ -478,8 +480,19 @@
                                 <p class="rede-social">Redes Sociais:</p>
                                 <div class="icones-social">
 
-                                    <div class="insta"><i class="fab fa-instagram"></i></div>
-                                    <div class="youtube"><i class="fab fa-youtube"></i></div>
+
+                                    <div class="insta"><a class="link-social"
+                                            href="https://www.instagram.com/min.cafecomdeus/" target="blank"><i
+                                                class="fab fa-instagram"></i></div>
+                                    </a>
+
+                                    <div class="youtube">
+                                        <a href="https://www.youtube.com/channel/UCo6afvtVmAimKARP6mlBGvg"
+                                            target="blank">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </div>
+                                    </a>
                                     <div class="spotify"><i class="fab fa-spotify"></i></div>
                                 </div>
                             </div>
@@ -525,13 +538,13 @@
                 </div>
                 <div class="right-bottom">
                     <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Programação</a></li>
-                        <li><a href="#">Galeria</a></li>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#aboutus">Sobre</a></li>
+                        <li><a href="#program">Programação</a></li>
+                        <li><a href="#gallery">Galeria</a></li>
                         <li><a href="#">Equipe</a></li>
                         <li><a href="#">Parceiros</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="#contact">Contato</a></li>
                     </ul>
                 </div>
             </div>

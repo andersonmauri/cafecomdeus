@@ -166,6 +166,11 @@ header {
 
 }
 
+.iniciar {
+  text-decoration: none;
+  color: #FFF;
+}
+
 .menu ul li:nth-child(1).active~.indicator {
   background-color: rgb(228, 81, 81);
   box-shadow: 0 10px 20px rgb(224, 19, 19);
@@ -905,6 +910,13 @@ footer {
   background-image: linear-gradient(#ee0017, #c2019c);
   padding: 5px;
   cursor: pointer;
+  text-decoration: none !important;
+}
+
+.insta a,
+.youtube a,
+.spotify a {
+  color: #fff !important;
 }
 
 .insta:hover {
@@ -919,6 +931,7 @@ footer {
   width: 50px;
   height: 50px;
   font-size: 35px;
+  text-decoration: none !important;
 }
 
 .youtube {
