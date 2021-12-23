@@ -1113,6 +1113,10 @@ footer {
 
   }
 
+  .section-aboutus--left p {
+    text-align: justify;
+  }
+
   .section-services {
     flex-wrap: wrap;
     justify-content: center;
@@ -1301,6 +1305,10 @@ footer {
     margin-right: 30px;
     margin-bottom: 30px;
 
+  }
+
+  .section-aboutus--left p {
+    text-align: justify;
   }
 
   .section-services {
