@@ -78,5 +78,31 @@ for (let i = 0; i < filterButtons.length; i++) {
     })
 }
 
+function menuToggle() {
+    let menuArea = document.querySelector("menu-area");
+
+    if (menuArea.style.display == 'none') {
+        menuArea.style.display = 'block';
+    }
+
+    else {
+        menuArea.style.display = 'none';
+    }
+
+}
+
+
+function mapaToggle() {
+    let mapaSite = document.querySelector("right-bottom-mapa");
+
+    if (mapaSite.style.display == 'none') {
+        mapaSite.style.display = 'block';
+    }
+
+    else {
+        mapaSite.style.display = 'none';
+    }
+
+}
 
 

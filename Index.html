@@ -30,16 +30,23 @@
     <header>
         <div class="header">
             <div class="logo">
-                <a href=""> <img src="media/2.png" width="100px" height="100px"></a>
+                <a href=""> <img class="img-logo" src="media/2.png" width="100px" height="100px"></a>
             </div>
             <div class=" plug-in-radio">
-                <h3>Musica - xyz tocando</h3>
-                <div class="botoes-radio"><img src="assets/images/play.png" width="30px" height="30px"></div>
-                <div class="botoes-radio"><img src="assets/images/pause.png" width="30px" height="30px"></div>
-                <div class="botoes-radio"><img src="assets/images/volume.png" width="30px" height="30px"></div>
 
+                <div class="title-music">
+                    <h3>Musica - xyz tocando</h3>
+                </div>
+                <div class="botoes-radio-geral">
+                    <div class="botoes-radio"><img src="assets/images/play.png" width="30px" height="30px"></div>
+                    <div class="botoes-radio"><img src="assets/images/pause.png" width="30px" height="30px"></div>
+                    <div class="botoes-radio"><img src="assets/images/volume.png" width="30px" height="30px"></div>
+                </div>
             </div>
             <div class="menu">
+                <div id="menu-opener" onclick="menuToggle()">
+                    <img class="menu-open" src="assets/images/menu.png">
+                </div>
                 <div class="menu-area">
                     <nav>
                         <Ul>
@@ -178,13 +185,14 @@
                                 surgiu em 2019 apenas com
                                 alguns podcasts na plataforma de streaming de músicas Spotify. Hoje, nosso trabalho vem
                                 crescendo e ganhando espaço
-                                através da internet com a utilização transmissões ao vivo pelo YouTube, e agora, mais um
+                                através da internet com a utilização de transmissões ao vivo pelo YouTube, e agora, mais
+                                um
                                 passo foi dado e desenvolvemos
                                 nossa rádio web. A obra do Senhor é grande, mas poucos são os trabalhadores, através
                                 desse trabalho, queremos alcançar pessoas
                                 das mais diversas partes do mundo, para que todas tenham a oportunidade de conhecer e
                                 experimentar do amor de Cristo.
-                                Ficamos imensamente felizes em te-lo conoscoe pedimos ao Senhor que derrame grandes
+                                Ficamos imensamente felizes em tê-lo conosco e pedimos ao Senhor que derrame grandes
                                 bençãos sobre a sua vida.
                             </p> <br>
                         </div>
@@ -535,8 +543,10 @@
             <div class="footer-columm">
                 <div class="right-top">
                     <h4>Mapa do Site</h4>
+                    <div class="mapa-opener" onclick="mapaToggle()"><img class="mapa-open"
+                            src="assets/images/mapa-open.png"></div>
                 </div>
-                <div class="right-bottom">
+                <div class="right-bottom-mapa">
                     <ul>
                         <li><a href="#home">Inicio</a></li>
                         <li><a href="#aboutus">Sobre</a></li>
