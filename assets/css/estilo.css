@@ -439,7 +439,7 @@ header {
 }
 
 .section-aboutus--right {
-  width: 480px;
+  width: 400px;
   text-align: center;
 
 }
@@ -470,6 +470,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 5px;
 
 }
 
@@ -491,8 +492,8 @@ p {
   line-height: 35px;
   color: #fff;
   width: 80%;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
+  text-align: left !important;
   background-color: rgba(71, 71, 71, 0.5);
   padding: 20px;
 }
@@ -1132,7 +1133,7 @@ footer {
   }
 
   .body-program {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .favoritas {
@@ -1322,7 +1323,9 @@ footer {
   }
 
   .body-program {
-    font-size: 24px;
+    font-size: 20px;
+
+    line-height: 30px !important;
   }
 
   .conteudo h4 {
